@@ -969,10 +969,16 @@ pre {
   transition: all 0.3s ease;
 }
 
+
 .loaded #all {
   opacity: 1;
   visibility: visible;
 }
+
+/*#all {
+  opacity: 1!important;
+  visibility: visible!important;
+}*/
 
 .header-type-left_side #all {
   padding-left: 81px;
