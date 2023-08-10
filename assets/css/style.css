@@ -1001,7 +1001,8 @@ About Area Style
 Video Created Area Style
 ======================================================*/
 .video-created-area {
-  background-image: url(../img/video-created-bg.jpg);
+  background-color: black;
+/*  background-image: url(../img/video-created-bg.jpg);*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2086,6 +2087,7 @@ Footer Top Area Style
 
 .single-widget {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .single-widget h3 {

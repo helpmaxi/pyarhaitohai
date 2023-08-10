@@ -99,7 +99,7 @@
   .about-content-wrap .about-img {
     display: block;
   }
-  .video-created-wrap h2 {
+  /*.video-created-wrap h2 {
     font-size: 22px;
     max-width: unset;
     position: absolute;
@@ -107,7 +107,16 @@
     right: 0;
     left: 0;
     top: -6px;
-  }
+  }*/
+  .video-created-wrap h2 {
+    font-size: 36px;
+    max-width: unset;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 50%;
+}
   .video-created-wrap .video-wrap a i {
     font-size: 50px;
   }
