@@ -877,14 +877,18 @@ Hero Slider Area Style
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
-
+.blog-area .single-blog .blog-content h3{
+  color: #000;
+}
 .hero-slider-item {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-
+.moretext{
+  display: none;
+}
 .hero-slider-item.bg-1 {
   background-image: url(../img/slider-img/1920_870_Hindi.jpg);
 }
