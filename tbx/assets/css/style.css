@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    background-color: #fff;
+    font-feature-settings: "tnum","tnum";
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+body, html {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.padding-top-80{
+    padding-top: 80px;
+}
+.padding-top-230{
+    padding-top: 230px;
+}
+
+
+.header-container {
+    height: 88px;
+    width: 100%;
+    background: #fff;
+    padding: 24px 48px;
+}
+.header-container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.home-page .main-wrap {
+    margin: 0 auto;
+/*    width: 1232px;*/
+    display: flex;
+    padding: 80px 0;
+}
+.home-page .top-banner {
+    display: flex;
+    transition: position .5s;
+    transition: top .5s;
+}
+.banner-and-product {
+    background-image: url(../img/bg_combie.173e5b6c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.main-wrap .top-banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2 1;
+/*    min-width: 400px;*/
+}
+.main-wrap .top-banner-left .title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #29b5bc;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+.main-wrap .top-banner-left .sub-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 96px;
+}
+
+.home-page .top-banner-right {
+    position: relative;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .home-page .top-banner-right .top-rocket-base {
+    height: 800px;
+    margin-top: -80px;
+}
+.home-page .top-banner-right .top-rocket {
+    width: 20%;
+    position: absolute;
+    top: 30px;
+    z-index: 100000;
+}
+.home-page .top-banner-right .top-clouds {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 240px;
+}
+
+/* .home-page .top-banner-left .top-banner-btn-wrap {
+    display: flex;
+    align-items: center;
+}*/
+ .home-page .top-banner-left .early-access-btn {
+    position: relative;
+    color: #fff;
+    width: 264px;
+    height: 52px;
+    border: 0;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.home-page-container .home-page .top-banner-left .top-banner-btn-wrap.desktop>a:last-child {
+    margin-left: 16px;
+}
+.home-page .top-banner-left .start-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 100px;
+}
+
+.home-page .top-banner-left .early-access-btn>img {
+   /* position: absolute;
+    left: 0;
+    top: -16px;*/
+    width: 260px;
+/*    z-index: 1;*/
+}
+ .home-page .top-banner-left .early-access-btn span {
+    z-index: 2;
+    position: absolute;
+    left: 40px;
+    top: 5px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+}
+
+.section-title .title {
+    color: #29b5bc;
+}
+.tradingview-wrap{
+    box-shadow: 0 12px 24px rgb(0 0 0 / 37%);
+}
+.tabs-left{
+    box-shadow: 0 12px 24px rgb(0 0 0 / 37%);
+}
+.caption {
+    align-items: center;
+    background: #29b5bc;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.tabs-left ul{
+    justify-content: center;
+}
+
+.tabs-left ul li{
+    width: 44%;
+    margin: 6px;
+}
+.tabs-left ul li button{
+    width: 100%;
+}
+
+.card{
+    box-shadow: 0 12px 24px rgb(0 0 0 / 37%);
+}
+
+.form-control-currency-amount>.control {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: var(--__height-CA);
+    overflow: hidden;
+    padding: var(--__padding-y-CA) var(--__padding-x-CA);
+    position: relative;
+    transition: all .15s ease-out;
+    width: var(--__width-CA);
+}
+
+.label{
+    width: 80%;
+}
+.value{
+    width: 20%;
+}
+.card-value{
+    font-size: 28px;
+}
+
+.hyper-dex-card-swap-form .details {
+    margin-top: -2rem;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #29b5bc;
+}
+
+.nav-pills .nav-link {
+    border-radius: var(--bs-nav-pills-border-radius);
+    border: 1px solid #29b5bc;
+}
+
+.staking-details li{
+    align-items: center!important;
+    height: 59px;
+    background: #29b5bc;
+    color: #fff;
+
+}
+
+.rounded-pill {
+    font-size: 16px;
+    height: 29px;
+}
+
+@media(max-width: 768px){
+    .header-container {
+        padding: 24px 8px;
+    }
+    .padding-top-230 {
+        padding-top: 30px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+}
